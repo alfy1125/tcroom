@@ -12,7 +12,7 @@ excel = pd.ExcelFile('MarchTC.xlsx')
 sheet = pd.read_excel(excel)
 global bill_hours
 bill_hours = []
-companies = ['MBC BioLabs','Atropos Therapeutics','Accelero','CAGE Biosciences','CellFE','ClearGene','CuraSen','Dahlia','Dorian Therapeutics','Elegen','Engine Biosciences','GALT','Glycomine','January','pH Pharma, Inc.','RubrYc','ScalmiBio']
+companies = ['Company A','Company B','Company C']
 
 def weekly_run():
     for x in companies:
